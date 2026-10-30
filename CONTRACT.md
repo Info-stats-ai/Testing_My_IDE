@@ -1,3 +1,3 @@
 # API contract
 
-POST /answer {message} -> {intent, reply}
+POST /answer {message} -> {intent, reply, confidence}
